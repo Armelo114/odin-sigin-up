@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf);
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Norse-Bold, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    background-image: url('./images/preethi-viswanathan-GCof3Y8EO8o-unsplash.jpg');
+    width: 25vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /*font-family: Norse-Bold, sans-serif;*/
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
+    
+}
+
+.first{
+    height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.second{
+    background-color: white;
+    height: 37vh;
+    align-items: center;
+    box-shadow: 2px 5px #e5e7eb;
+}
+
+.form-main-div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px
+}
+
+input{
+    width: 220px;
+    border: 1px solid #e5e7eb;
+    height: 25px;
+    border-radius: 5px;
+    
+}
+
+input:focus{
+    border: 1px solid blue;
+}
+
+input:invalid{
+    bottom: 1px solid red;
+}
+
+label{
+    font-size: 10px;
+    color: #444446;
+}
+
+#error{
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+
+}
+
+.btn-green{
+    background-color: #596d48;
+    color: white;
+    border: 1px solid #596d48;
+    border-radius: 10px;
+    height: 40px;
+    width: 175px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 2px 5px #e5e7eb;
+
+}
+
+.third{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.hyperlink{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.login{
+    color: #596d48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a-footer{
+    color: white;
+}
+
+.p-footer{
+    font-size: 12px;
+}
+
+.forImage{
+    height: 34vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.forFooter{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 60vh;
+    width: 35vh;
+
+}
+
+.semi-transparent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.6);
+    font-family: Norse-Bold, sans-serif;
+}
+
+hi{
+    font-size: 50px;
+    font-family: Norse-Bold, sans-serif;
+}
